@@ -1,0 +1,8 @@
+---
+
+- name: install roles
+  hosts: winserv
+
+  tasks:
+    - name: install ADDS
+      script: "script_windows/install_ADDS.ps1"
