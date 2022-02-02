@@ -1,6 +1,6 @@
 $DomainNameDNS = "lab.lab"
 $DomainNameNetBios = "LAB"
-$SafeModeClearPassword = "Dimitri7"
+$SafeModeClearPassword = ""
 $SafeModeAdministratorPassword = ConvertTo-SecureString $SafeModeClearPassword -AsPlaintext -Force
 
 $ForestConfiguration = @{
